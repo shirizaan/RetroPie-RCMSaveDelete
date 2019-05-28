@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 romdir=$(dirname "$3")
 romfile=$(basename "$3")
