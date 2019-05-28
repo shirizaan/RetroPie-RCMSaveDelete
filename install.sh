@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-readonly CFGDIR="/opt/retropie/configs/all"
-readonly RCMDIR="runcommand-menu"
-readonly SCRIPT="Delete Save Files.sh"
+CFGDIR="/opt/retropie/configs/all"
+RCMDIR="runcommand-menu"
+SCRIPT="Delete Save Files.sh"
 
 # Check for root access.
 if [[ $EUID -ne 0 ]]; then
